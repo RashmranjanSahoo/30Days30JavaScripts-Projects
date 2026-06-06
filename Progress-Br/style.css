@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background:#f5f2f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 50px;
+}
+
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px 5px rgba(0,0,0,0.15),
+                 -6px -6px 10px 5px rgba(255,255,255,0.7);
+
+}
+
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                      -0.5px -0.5px 0px rgba(255,255,255,1),
+                      -0.5px -0.5px 10px rgba(0,0,0,0.15),
+                      0px 12px 20px 10px rgba(0,0,0,0.05);
+}
+
+.inner div{
+    font-weight: 600;
+    font-size: 22px;
+    color:rgb(12, 11, 11);
+}
+circle{
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    transition: 0.5s;
+}
+.html-circle{
+    stroke:url(#GradientColor);
+}
+
+.css-circle{
+    stroke:url(#GradientColor);
+}
+
+.js-circle{
+    stroke:url(#GradientColor);
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h2{
+    margin-top: 20px;
+    color: rgb(15, 12, 12);
+    font-size: 22px;
+}
+
